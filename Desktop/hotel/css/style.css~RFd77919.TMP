@@ -1,0 +1,58 @@
+/* CSS Document */
+
+body{ background:url(../images/background1.png);
+background-repeat:no-repeat;}
+
+
+.header{ background-image:url(../images/headers.png); 
+font-size:60px; color:#FFFFFF;
+height:200px;
+font-family:"AR CENA";
+
+}
+#bodycontent
+{
+	margin-top:-2.5cm;
+}
+#header1
+{
+	padding-left:20cm;
+}
+#image
+{
+	margin-top:-1cm;
+	width:1.2cm;
+	height:1.2cm;
+	margin-left:33cm;
+	float:left;
+	background-image:url(../images/twitter.png);
+}
+#image1
+{
+	margin-top:-1cm;
+	width:1.2cm;
+	height:1.2cm;
+	float:left;
+	background-image:url(../images/facebook-icon.png);
+}
+#image2
+{
+	padding-top:0.5cm;
+	width:4cm;
+	height:4cm;
+	background-image:url(../images/vv_2010_enter_button.png);
+}
+#footer
+{
+	background-image:url(../images/Wood-002.png);
+	
+	width:26cm;
+	height:0.7cm;
+	margin-left:5cm;
+	margin-top:6.17cm;
+}
+@font-face
+{
+font-family: chalkDust;
+src:url(../ttf/chalkdust.ttf);
+}

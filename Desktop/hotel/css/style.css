@@ -1,0 +1,750 @@
+/* CSS Document */
+
+#body{ 
+animation: myfirst 40s ease 0s infinite alternate;
+-moz-animation: myfirst 40s ease 0s infinite alternate; /* Firefox */
+-webkit-animation: myfirst 40s ease 0s infinite alternate; /* Safari and Chrome */
+
+}
+@keyframes myfirst
+{
+0%   {background-image:url(../images/02.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+10%  {background-image:url(../images/hotel1.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+20%  {background-image:url(../images/Colorful-Hotel-Interior-Design-500x370-1-480x355.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+30% {background-image:url(../images/Hotel-Raphael-photos-Room-More-Pictures.JPEG);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+40% {background-image:url(../images/Five-Star-Hotel-Lobby-Design.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+50% {background-image:url(../images/hotel-amano1.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+60% {background-image:url(../images/modern-minimalist-hotel-interior-design-ideas-3-480x276.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+70% {background-image:url(../images/Hotel-lobby-Interior-Design.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+80% {background-image:url(../images/ImageGen.png);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+90% {background-image:url(../images/luxury-Hotel-Interior-Design-ideas-500x363-4-480x322.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+100% {background-image:url(../images/The-Connaught-Five-Star-Hotels-in-London_1-587x418.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+		
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+0%   {background-image:url(../images/02.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+10%  {background-image:url(../images/hotel1.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+20%  {background-image:url(../images/Colorful-Hotel-Interior-Design-500x370-1-480x355.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+30% {background-image:url(../images/Hotel-Raphael-photos-Room-More-Pictures.JPEG);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+40% {background-image:url(../images/Five-Star-Hotel-Lobby-Design.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+50% {background-image:url(../images/hotel-amano1.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+60% {background-image:url(../images/modern-minimalist-hotel-interior-design-ideas-3-480x276.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+70% {background-image:url(../images/Hotel-lobby-Interior-Design.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+80% {background-image:url(../images/ImageGen.png);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+90% {background-image:url(../images/luxury-Hotel-Interior-Design-ideas-500x363-4-480x322.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+100% {background-image:url(../images/The-Connaught-Five-Star-Hotels-in-London_1-587x418.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+0%   {background-image:url(../images/02.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+10%  {background-image:url(../images/hotel1.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+20%  {background-image:url(../images/Colorful-Hotel-Interior-Design-500x370-1-480x355.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+30% {background-image:url(../images/Hotel-Raphael-photos-Room-More-Pictures.JPEG);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+40% {background-image:url(../images/Five-Star-Hotel-Lobby-Design.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+50% {background-image:url(../images/hotel-amano1.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+60% {background-image:url(../images/modern-minimalist-hotel-interior-design-ideas-3-480x276.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+70% {background-image:url(../images/Hotel-lobby-Interior-Design.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+80% {background-image:url(../images/ImageGen.png);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+90% {background-image:url(../images/luxury-Hotel-Interior-Design-ideas-500x363-4-480x322.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}		
+100% {background-image:url(../images/The-Connaught-Five-Star-Hotels-in-London_1-587x418.jpg);
+		background-size:1370px 750px;
+		background-repeat:no-repeat;}
+}
+#body1{ background:url(../images/BlogBackground1.jpg);
+
+}
+#body2{ background-image:url(../images/BlogBackground.jpg);
+background-repeat:no-repeat;
+-moz-background-size:2000px 2000px; /* Firefox 3.6 */
+background-size:2000px 2000px;
+opacity:0.9;
+}
+#image3
+{
+	background-image:url(../images/Untitled-1.png);
+	background-repeat:no-repeat;
+	width:30cm;
+	height:13cm;
+	margin-top:.4cm;
+	margin-left:2.5cm;
+}
+#login1
+{
+	width:30%;
+	float:left;
+	margin-top:-11cm;
+	margin-left:3.5cm;
+	text-align:center;
+	font-size:24px;
+	font-family:"chalkDust";
+	
+}
+#login1 a
+{
+	text-decoration:none;
+	color:#000000;
+}
+#login1 img
+{
+	height:6cm;
+}
+#login1 img:hover
+{
+	height:7cm;
+}
+#login2
+{
+	width:30%;
+	float:left;
+	margin-top:-11cm;
+	margin-left:12.5cm;
+	text-align:center;
+	font-size:24px;
+	font-family:"chalkDust";
+	color:#000000;
+	
+}
+#login8
+{
+	width:55%;
+	float:left;
+	margin-top:-16cm;
+	margin-left:15cm;
+	
+	font-size:20px;
+	font-family:"Comic Sans MS";
+	color:#000000;
+	text-decoration:none;
+}
+
+#login0
+{
+	width:55%;
+	float:left;
+	margin-top:-20.5cm;
+	margin-left:15cm;
+	font-size:20px;
+	font-family:"Comic Sans MS";
+	color:#000000;
+	text-decoration:none;
+}
+
+
+#login5
+{
+	width:55%;
+	float:left;
+	margin-top:-27cm;
+	margin-left:7cm;
+	
+	font-size:20px;
+	font-family:"chalkDust";
+	color:#000000;
+	text-decoration:none;
+}
+
+
+#login2 #a
+{
+	text-decoration:none;
+	color:#000000;
+}
+#log2
+{
+	width:30%;
+	float:left;
+	margin-top:-11cm;
+	margin-left:12.5cm;
+	text-align:center;
+	font-size:24px;
+	font-family:"chalkDust";
+	color:#000000;
+	
+}
+
+
+#log2 a
+{
+	text-decoration:none;
+	color:#C60;
+}
+#log2 a:hover
+{
+	
+	font-size:24.5px;
+}
+#login3
+{
+	width:30%;
+	float:left;
+	margin-top:-11cm;
+	margin-left:21.5cm;
+	text-align:center;
+	font-size:24px;
+	font-family:"chalkDust";
+	color:#000000;
+	text-decoration:none;
+	
+}
+#login3 img
+{
+	height:6cm;
+}
+#login3 img:hover
+{
+	height:7cm;
+}
+#login3 a
+{
+	text-decoration:none;
+	color:#000000;
+}
+#login2 img
+{
+	height:6cm;
+}
+#login2 img:hover
+{
+	height:7cm;
+}
+
+.header{
+	margin-left:-0.25cm;
+	margin-right:-0.22cm;
+margin-top:-0.2cm; 
+background-image:url(../images/headers.png); 
+font-size:55px; color:#FFFFFF;
+height:200px;
+font-family:"wizardMagic";
+font-weight: bold;
+}
+.header1{
+	margin-left:-0.25cm;
+	margin-right:-0.22cm;
+margin-top:-0.2cm; 
+background-image:url(../images/headers.png); 
+font-size:55px; color:#FFFFFF;
+font-family:"wizardMagic";
+font-weight: bold;
+}
+.header2
+{
+	margin-left:-0.25cm;
+	margin-right:-0.22cm;
+margin-top:-0.2cm; 
+background-color:#FFFFFF;
+opacity:0.9; 
+font-size:55px;
+text-align:center;
+color:#000;
+height:90px;
+font-family:"Comic Sans MS";
+font-weight: bold;
+}
+#bodycontent
+{
+	margin-top:-2.5cm;
+}
+#bodycontent1
+{
+	height:430px;
+}
+#header1
+{
+	padding-left:20cm;
+	
+}
+#image
+{
+	
+	width:1.2cm;
+	height:1.2cm;
+	margin-left:32.5cm;
+	float:left;
+	
+}
+#image a:hover img
+{
+	width:1.5cm;
+	height:1.5cm;
+}
+#image1
+{
+	
+	width:1.2cm;
+	height:1.2cm;
+	float:left;	
+}
+#image1 a:hover img
+{
+	width:1.5cm;
+	height:1.5cm;
+}
+
+#image2
+{
+	margin-top:2cm;
+	margin-left:31cm;
+	width:4cm;
+	height:4cm;
+	
+}
+#image2 a:hover img
+{
+	width:4.5cm;
+	height:4.5cm;
+}
+#footer
+{
+	background-image:url(../images/Wood-002.png);
+	
+	margin-left:-10px;
+	margin-right:-7px;
+	height:0.7cm;
+	
+	margin-top:-20px;
+}
+@font-face
+{
+font-family: chalkDust;
+src:url(../ttf/chalkdust.ttf);
+}
+@font-face
+{
+font-family: StarNight;
+src:url(../ttf/OneStarryNight.ttf);
+}
+@font-face
+{
+font-family: Pala;
+src:url(../ttf/Palafotz.ttf);
+}
+@font-face
+{
+	font-family:jaggyFries;
+	src:url(../ttf/jaggyfries.ttf);
+}
+@font-face
+{
+	font-family:wizardMagic;
+	src:url(../ttf/Wizards%27%20Magic.ttf);
+}
+#blank
+{
+	width:100%;
+	height:7.7cm;
+}
+#blank1
+{
+	width:100%;
+	height:9cm;
+}
+#log
+{
+	width:3cm;
+	height:1cm;
+}
+#log1
+{
+	width:4cm;
+	height:1cm;
+}
+#form1
+{
+	width:50%;
+	margin-top:-15cm;
+	
+}
+#image4
+{
+	background-image:url(../images/old-paper21.png);
+	background-repeat:no-repeat;
+	width:30cm;
+	height:30cm;
+	margin-top:.4cm;
+	margin-left:2.5cm;
+}
+#image5
+{
+	background-image:url(../images/old-paper21.png);
+	-moz-background-size:1000px 670px; /* Firefox 3.6 */
+background-size:1000px 670px;
+background-repeat:no-repeat;
+	background-repeat:no-repeat;
+	width:26cm;
+	height:18cm;
+	margin-top:-3cm;
+	margin-left:9cm;
+}
+#image0
+{
+	background-image:url(../images/old-paper21.png);
+	-moz-background-size:1000px 670px; /* Firefox 3.6 */
+background-size:1000px 850px;
+background-repeat:no-repeat;
+	background-repeat:no-repeat;
+	width:26cm;
+	height:22cm;
+	margin-top:-3cm;
+	margin-left:9cm;
+}
+#image7
+{
+	background-image:url(../images/old-paper21.png);
+	-moz-background-size:1000px 500px; /* Firefox 3.6 */
+background-size:1000px 500px;
+background-repeat:no-repeat;
+	background-repeat:no-repeat;
+	width:26cm;
+	height:18cm;
+	margin-top:-3cm;
+	margin-left:9cm;
+}
+
+.recaptchatable .recaptcha_image_cell, #recaptcha_table {
+    background-color:#FFF ;
+  }
+  
+  #recaptcha_table {
+    border-color:#000; 
+  }
+  
+  #recaptcha_response_field {
+    border-color: #000;
+    background-color: #FFF;
+  }
+  #myimage
+  {
+	  margin-left:10px;
+	  width:20%;
+	  float:left;
+  }
+ #myimage img
+ {
+	 width:4cm;
+	 height:3cm;
+ }
+ #thumb
+ {
+	 width:2cm;
+	 height:2cm;
+	 margin-left:100px;
+	 border:1px solid #CCC;
+ }
+ #menu1, #menu1 ul, #menu1 li{
+padding:0;
+margin:0;
+}
+#menu1
+{
+	width:30%;
+	float:left;
+}
+#menu1 a
+{
+	display:block;
+	width:280px;
+height: 60px;
+
+}
+#menu1 li{
+list-style: none;
+position: relative;
+width:260px;
+height: 60px;
+padding:0 20px;
+background-color: black;
+line-height: 57px;
+cursor:pointer;
+font-family:"pala";
+font-size:30px;
+text-align:center;
+border-bottom-style:solid;
+border-bottom-color:#999;
+color: white;
+
+}
+#menu1 li a{
+text-decoration:none;
+color: white;
+
+}
+
+#menu1 li:hover{
+background-color:red;
+}
+#menu1 ul ul{
+position: absolute;
+top:0;
+left:300px;
+visibility:hidden;
+}
+#menu1 ul li:hover ul{
+visibility:visible;
+} 
+#menu1 ul li:hover ul ul{
+visibility:hidden;
+}
+#menu1 ul ul ul{
+position: absolute;
+top:0;
+left:300px;
+visibility:hidden;
+}
+#menu1 ul ul li:hover ul{
+visibility:visible;
+}
+#content1
+{
+	width:60%;
+	height:300px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-top:-80px;
+	text-align:center;
+	font-size:60px;
+	font-family:"pala";
+	color:#F00;
+	padding-top:100px;
+	overflow:auto;
+}
+#content2
+{
+	width:60%;
+	height:490px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-top:-80px;
+	text-align:center;
+	font-size:20px;
+	font-family:"chalkDust";
+	color:#000;
+	padding-top:20px;
+	overflow:auto;
+}
+#content3
+{
+	width:60%;
+	height:300px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-top:-5px;
+	overflow:auto;
+	font-size:20px;
+	font-family:"chalkDust";
+	color:#F00;
+	padding-top:20px;
+}
+#content3 a
+{
+	color:#000000;
+	text-decoration:none;
+}
+#content3 a:hover
+{
+	font-size:24px;
+	color:#F00;
+}
+#content7
+{
+	width:70%;
+	height:360px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-top:0px;
+	margin-left:-80px;
+	font-size:20px;
+	font-family:"chalkDust";
+	color:#F00;
+	padding-top:20px;
+	padding-left:10px;
+	overflow:auto;
+}
+#content7 a
+{
+	color:#000000;
+	text-decoration:none;
+}
+#content7 a:hover
+{
+	font-size:24px;
+	color:#F00;
+}
+#content6
+{
+	width:70%;
+	height:375px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-top:-5px;
+	margin-left:-80px;
+	font-family:"AR CENA";
+	color:#F00;
+	padding-top:20px;
+	padding-left:10px;
+	font-weight:900;
+	overflow:auto;
+	
+	
+}
+#content6 table
+{
+	margin-left:300px;
+}
+#content6 table td
+{
+	font-size:30px;
+}
+#content6 table td a
+{
+	font-size:20px;
+	text-decoration:none;
+	color:#000;
+}
+#content6 table td a:hover
+{
+	font-size:24px;
+	text-decoration:none;
+	color:#F00;
+}
+#content4
+{
+	width:60%;
+	height:260px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-top:-5px;
+	text-align:center;
+	font-size:20px;
+	font-family:"chalkDust";
+	color:#000;
+	padding-top:100px;
+	overflow:auto;
+	
+}
+#content4 a
+{
+	color:#000000;
+	text-decoration:none;
+}
+#content4 a:hover
+{
+	font-size:24px;
+	color:#F00;
+}
+#content8
+{
+	width:60%;
+	height:360px;
+	float:left;
+	background-color:#FFFFFF;
+	margin-top:-5px;
+	font-size:20px;
+	font-family:"chalkDust";
+	color:#F00;
+	padding-left:50px;
+	overflow:auto;
+	
+}
+#content8 a
+{
+	color:#000000;
+	text-decoration:none;
+}
+#content8 a:hover
+{
+	font-size:24px;
+	color:#F00;
+}
+#button
+{
+	background-color:#000000;
+	color:#FFFFFF;
+	border:0px;
+	display:block;
+	width:4cm;
+	height:1.5cm;
+	font-size:20px;
+	font-family:"pala";
+	font-weight:bolder;
+	margin-left:325px;
+
+}
+#button:hover
+{
+	background-color:#F00;
+	
+}
+#select
+{
+	width:150px;
+	font-size:18px;
+	height:1cm;
+}

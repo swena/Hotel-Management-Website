@@ -1,0 +1,11 @@
+<?php
+print<<<HERE
+<div class="header">
+<div id="header1">
+MANSS HOTELS
+</div>
+<div id="menu">
+</div>
+</div>
+HERE;
+?>

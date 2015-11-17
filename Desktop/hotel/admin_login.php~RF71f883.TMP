@@ -1,0 +1,74 @@
+<?php
+session_start();
+if(isset($_SESSION['Hotel_name']))
+{
+echo "<script>location.href='admin_home.php'</script>";
+}
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+
+<body id="body1">
+<div id="content">
+<?php
+include "include/header.php";
+include "include/menu.php";
+include "include/config.php";
+?>
+<div id="bodycontent">
+<div id="image"><a href="#"><img src="images/twitter.png"/></a></div><div id="image1"><a href="#"><img src="images/facebook-icon.png"/></a></div>
+<br/><div id="image3"></div><br/>
+<div id="log2">
+<form method="post" action="">
+<table>
+<tr>
+<td>Username:</td>
+<td><input type="text" name="admin_user"/></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="password" name="admin_pass"/></td>
+</tr>
+<?php
+if(isset($_POST['admin_pass']))
+{
+$user=filter_input(INPUT_POST,'admin_user');
+$pass=md5(filter_input(INPUT_POST,'admin_pass'));
+$sql="SELECT * FROM admin_login WHERE Admin_loginid='$user' and Admin_login_password='$pass'";
+$result=mysql_query($sql);
+$value = mysql_fetch_array($result);
+$rows=mysql_num_rows($result);
+if($rows>0)
+{
+session_start();
+$_SESSION['Hotel_name']=$value['Hotel_name'];
+$_SESSION['Hotel_logo']=$value['Hotel_logo'];
+echo "<script>location.href='admin_home.php'</script>";
+}
+else{
+print "<tr><td colspan=\"2\">Sorry, invalid username/password</td></tr>";
+}
+}
+?>
+
+<tr>
+
+<td colspan="2"><input type="image" name="login"  src="images/login.png" id="log"/></td>
+</tr>
+</form>
+</div>
+</div>
+
+<?php
+include "include/footer.php";
+
+?>
+</div>
+</body>
+</html>

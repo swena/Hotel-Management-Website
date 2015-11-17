@@ -1,0 +1,53 @@
+
+<div id="bodycontent1">
+<div id="menu1">
+<ul>
+<li>
+<a href="employeemanagment.php">
+Employee managment</a>
+	<ul>
+		<li>
+			<a href="addstaffmember.php">
+				Add staff member</a>
+		</li>
+		<li>
+			<a href="activatedordeactivated.php">
+			Activated or deactivated</a>
+		</li>
+		<li>
+			<a href="message.php">
+			Message</a>
+		</li>
+		<li>
+			<a href="search.php">
+			Search</a>
+		</li>
+	</ul>
+</li>
+<li>
+	<a href="addroomtype.php">
+	Add room type</a>
+</li>
+<li>
+	<a href="setprices.php">
+	Set price</a>
+</li>
+<li>
+	<a href="reservationchart.php">
+	Reservation chart</a>
+</li>
+<li>
+	<a href="addnewadmin.php">
+	Add new admin</a>
+</li>
+</ul>
+</div>
+</div>
+<?php
+include "include/footer.php";
+print<<<HERE
+</div>
+</body>
+</html>
+HERE;
+?>
